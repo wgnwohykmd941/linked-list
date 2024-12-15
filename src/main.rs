@@ -58,10 +58,10 @@ impl MyList {
             Some(Node) => self.head = Node.next,
         }
     }
-    fn split() {
-        todo!()
-    }
-    fn merge() {
+}
+
+impl Drop for MyList {
+    fn drop(&mut self) {
         todo!()
     }
 }
